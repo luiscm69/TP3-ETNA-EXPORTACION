@@ -1,0 +1,4 @@
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\bin\Debug\EXPO.BusinessEntity.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\bin\Debug\EXPO.BusinessEntity.pdb
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.pdb

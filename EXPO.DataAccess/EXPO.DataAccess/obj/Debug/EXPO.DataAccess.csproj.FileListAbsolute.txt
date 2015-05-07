@@ -1,0 +1,7 @@
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\bin\Debug\EXPO.DataAccess.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\bin\Debug\EXPO.DataAccess.pdb
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\obj\Debug\EXPO.DataAccess.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\obj\Debug\EXPO.DataAccess.pdb
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\obj\Debug\EXPO.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\bin\Debug\EXPO.BusinessEntity.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.DataAccess\EXPO.DataAccess\bin\Debug\EXPO.BusinessEntity.pdb

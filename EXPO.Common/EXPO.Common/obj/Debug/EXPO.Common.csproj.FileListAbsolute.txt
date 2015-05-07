@@ -1,0 +1,4 @@
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Common\EXPO.Common\bin\Debug\EXPO.Common.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Common\EXPO.Common\bin\Debug\EXPO.Common.pdb
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Common\EXPO.Common\obj\Debug\EXPO.Common.dll
+C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Common\EXPO.Common\obj\Debug\EXPO.Common.pdb
