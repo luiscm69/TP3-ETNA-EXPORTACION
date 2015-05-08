@@ -1,13 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="wf_ConocimientoEmbarque_Modificar.aspx.cs" Inherits="Expo_Ejecucion_wf_ConocimientoEmbarque_Modificar" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeFile="wf_ConocimientoEmbarque_Modificar.aspx.cs" Inherits="Expo_Ejecucion_wf_ConocimientoEmbarque_Modificar" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-     <form id="form1" runat="server">
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
      <table style="width:100%;">
             <tr>
                 <td colspan="4">
@@ -120,6 +116,4 @@
                     &nbsp;</td>
             </tr>
         </table>
-     </form>
-</body>
-</html>
+</asp:Content>

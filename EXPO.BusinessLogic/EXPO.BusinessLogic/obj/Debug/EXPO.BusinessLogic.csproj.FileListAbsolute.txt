@@ -7,3 +7,12 @@ C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Bus
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.dll
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessEntity.pdb
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.pdb
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessLogic.dll
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessLogic.pdb
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessEntity.dll
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.dll
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessEntity.pdb
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.pdb
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.dll
+D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.pdb

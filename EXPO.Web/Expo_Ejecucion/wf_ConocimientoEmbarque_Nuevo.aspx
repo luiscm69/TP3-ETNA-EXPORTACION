@@ -1,13 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="wf_ConocimientoEmbarque_Nuevo.aspx.cs" Inherits="Expo_Ejecucion_wf_ConocimientoEmbarque_Nuevo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeFile="wf_ConocimientoEmbarque_Nuevo.aspx.cs" Inherits="Expo_Ejecucion_wf_ConocimientoEmbarque_Nuevo" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+</asp:Content>
+
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <div>
     
         <table style="width:100%;">
@@ -108,7 +105,7 @@
             </tr>
             <tr>
                 <td  align="center" colspan="4">
-                    <asp:Button ID="btn_Limpiar" runat="server" Text="Limpiar" />
+                    <asp:Button ID="btn_Limpiar" runat="server" Text="Limpiar" OnClick="btn_Limpiar_Click" />
                     &nbsp;<asp:Button ID="btn_Grabar" runat="server" Text="Grabar" 
                         onclick="btn_Grabar_Click" />
                     &nbsp;<asp:Button ID="btn_Salir" runat="server" Text="Salir" Width="59px" />
@@ -121,6 +118,4 @@
         </table>
     
     </div>
-    </form>
-</body>
-</html>
+</asp:Content>

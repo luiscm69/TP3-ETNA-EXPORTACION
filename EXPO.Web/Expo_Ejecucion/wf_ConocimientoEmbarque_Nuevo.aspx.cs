@@ -79,7 +79,26 @@ public partial class Expo_Ejecucion_wf_ConocimientoEmbarque_Nuevo : System.Web.U
 
         sResultado = oBL_ConocimientoEmbarque.Insertar_ConocimientoEmbarque(oBE_ConocimientoEmbarque);
 
+        Response.Write("<script language=javascript>alert('El conocimiento de embarque N# ha sido registrado correctamente');</script>");
+        limpiar();
 
+    }
 
+    private void limpiar() {
+        this.txt_Consignatario.Text = "";
+        this.txt_NumeroBL.Text = "";
+        this.txt_Peso.Text = "";
+        this.txt_Cantidad.Text = "";
+        this.txt_FechaZarpe.Text = "";
+        this.txt_DescripcionCarga.Text = "";
+        dpl_PuertoOrigen.SelectedIndex = -1;
+        dpl_PuertoDestino.SelectedIndex = -1;
+        dpl_TipoCarga.SelectedIndex = -1;
+        dpl_LineaNaviera.SelectedIndex = -1;
+        
+    }
+    protected void btn_Limpiar_Click(object sender, EventArgs e)
+    {
+        limpiar();
     }
 }

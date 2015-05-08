@@ -5,13 +5,18 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        ASP.NET
+        Baterias ETNA
     </h2>
-    <p>
-        Para obtener más información acerca de ASP.NET, visite <a href="http://www.asp.net" title="Sitio web de ASP.NET">www.asp.net</a>.
-    </p>
-    <p>
-        También puede encontrar <a href="http://go.microsoft.com/fwlink/?LinkID=152368"
-            title="Documentación de ASP.NET en MSDN">documentación sobre ASP.NET en MSDN</a>.
-    </p>
+    <table">
+        <tr>
+            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Nuevo.aspx">Nuevo</a></th>
+        </tr>
+        <tr>
+            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Modificar.aspx">Modificar</a></th>
+        </tr>
+        <tr>
+            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Listado.aspx">Listado</a></th>
+        </tr>
+    </table>
+
 </asp:Content>

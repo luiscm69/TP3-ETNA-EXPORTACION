@@ -3,11 +3,11 @@
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-   
+
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">   
     <div>
     
-        <table style="width:80%;">
+        <table style="width:100%;">
             <tr>
                 <td>
                     Estado</td>
