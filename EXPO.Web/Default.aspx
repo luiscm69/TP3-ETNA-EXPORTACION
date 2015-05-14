@@ -4,19 +4,8 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        Baterias ETNA
-    </h2>
-    <table">
-        <tr>
-            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Nuevo.aspx">Nuevo</a></th>
-        </tr>
-        <tr>
-            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Modificar.aspx">Modificar</a></th>
-        </tr>
-        <tr>
-            <th><a href="Expo_Ejecucion/wf_ConocimientoEmbarque_Listado.aspx">Listado</a></th>
-        </tr>
-    </table>
+    <div>
+        <img src="images/etna.jpg" alt="Baterias ETNA" style="width:900px;height:400px" />
+    </div>
 
 </asp:Content>

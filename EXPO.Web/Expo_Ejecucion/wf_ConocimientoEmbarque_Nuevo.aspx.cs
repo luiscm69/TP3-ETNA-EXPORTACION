@@ -62,6 +62,12 @@ public partial class Expo_Ejecucion_wf_ConocimientoEmbarque_Nuevo : System.Web.U
     protected void btn_Grabar_Click(object sender, EventArgs e)
     {
 
+        if ((txt_Consignatario.Text).Equals(""))
+        {
+            Response.Write("<script language=javascript>alert('Debe ingresar el consignatario');</script>");
+        }
+        else {        
+
         BE_ConocimientoEmbarque oBE_ConocimientoEmbarque = new BE_ConocimientoEmbarque();
         BL_ConocimientoEmbarque oBL_ConocimientoEmbarque = new BL_ConocimientoEmbarque();
         string sResultado = String.Empty;
@@ -81,6 +87,8 @@ public partial class Expo_Ejecucion_wf_ConocimientoEmbarque_Nuevo : System.Web.U
 
         Response.Write("<script language=javascript>alert('El conocimiento de embarque N# ha sido registrado correctamente');</script>");
         limpiar();
+
+        }
 
     }
 

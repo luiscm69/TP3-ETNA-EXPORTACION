@@ -1,22 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Site.master" CodeFile="wf_ConocimientoEmbarque_Listado.aspx.cs" Inherits="Expo_Ejecucion_wf_ConocimientoEmbarque_Listado" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.master" CodeFile="wf_SolicitudAtencion_Listado.aspx.cs" Inherits="Expo_Ejecucion_wf_SolicitudAtencion_Listado" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 
-<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">   
+<asp:Content ID="BodyContetn" runat="server" ContentPlaceHolderID="MainContent">
+
     <div>
     
         <table style="width:100%;">
             <tr>
                 <td>
-                    Estado</td>
+                    Razon Social</td>
                 <td>
-                    <asp:DropDownList ID="dpl_Estado" runat="server">
-                        <asp:ListItem Value="1">Registrado</asp:ListItem>
-                        <asp:ListItem Value="2">En Proceso</asp:ListItem>
-                        <asp:ListItem Value="3">Atendido</asp:ListItem>
-                    </asp:DropDownList>
+                    <asp:TextBox ID="txt_RazonSocial" runat="server"></asp:TextBox>
                 </td>
                 <td>
                     &nbsp;</td>
@@ -27,14 +23,14 @@
             </tr>
             <tr>
                 <td>
-                    Fecha Zarpe inicla</td>
+                    Fecha Registro inicial</td>
                 <td>
-                    <asp:TextBox ID="txt_FechaZarpeIni" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txt_FechaIniReg" runat="server"></asp:TextBox>
                 </td>
                 <td>
-                    Fecha Zarpe Final</td>
+                    Fecha Registro Final</td>
                 <td>
-                    <asp:TextBox ID="txt_FechaZarpeFin" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txt_FechaFinReg" runat="server"></asp:TextBox>
                 </td>
                 <td>
                     <asp:Button ID="btn_Buscar" runat="server" Text="Buscar" 
@@ -43,7 +39,7 @@
             </tr>
             <tr>
                 <td colspan="3">
-                    &nbsp;</td>
+                    <a href="wf_SolicitudAtencion_Nuevo.aspx">Nuevo</a></td>
                 <td>
                     &nbsp;</td>
                 <td>
@@ -52,14 +48,15 @@
         </table>
     
     </div>
+
     <table style="width:80%;">
         <tr>
             <td>
-                <asp:GridView DataKeyNames="iIdConocimientoEmbarque" ID="grv_Listado" 
+                <asp:GridView DataKeyNames="iIdSolicitudAtencion" ID="grv_Listado" 
                     AutoGenerateColumns="False" runat="server" 
                     onrowdatabound="grv_Listado_RowDataBound">
                     <Columns>
-                        <asp:BoundField DataField= "iIdConocimientoEmbarque" HeaderText="Código"  />
+                        <asp:BoundField DataField= "iIdSolicitudAtencion" HeaderText="Código"  />
                         <asp:BoundField DataField= "sNumeroBL" HeaderText="Número BL"  />
                         <asp:BoundField DataField= "sConsignatario" HeaderText="Consignatario"  />
                         <asp:BoundField DataField= "sPuertoDestino" HeaderText="Puerto Destino"  />
@@ -84,46 +81,6 @@
             </td>
         </tr>
     </table>
-<script type="text/jscript">
-    function fc_AbrirPagina(iCodigo, sTipo) {
-        if (sTipo != "Nuevo") {
-            url = "wf_ConocimientoEmbarque_Modificar.aspx?iIdCodigo=" + iCodigo + "&Tipo=" + sTipo;
-            window.open(url, 'Lista', 'toolbar=no,left=0,top=0,width=700px,height=350px, directories=no, status=no, scrollbars=yes, resizable=yes, menubar=no');
-        } else {
 
-        url = "wf_ConocimientoEmbarque_Nuevo.aspx";
-            window.open(url, 'Lista', 'toolbar=no,left=0,top=0,width=700px,height=350px, directories=no, status=no, scrollbars=yes, resizable=yes, menubar=no');
-        }
-        return false;
-    }
 
-    function fc_ValidarEliminar(iCodigo) {
-      
-        if (confirm('Esta Seguro de eliminar el Conocimiento de Embarque Nro: ' + iCodigo)) {
-
-            return true;
-        } else {
-            return false;
-        }
-
-    }
-
-    var objFilaAnt = null;
-    var backgroundColorFilaAnt = "";
-
-    function fc_SeleccionaFilaSimple(objFila) {
-        try {
-            if (objFilaAnt != null) {
-                objFilaAnt.style.backgroundColor = backgroundColorFilaAnt;
-            }
-            objFilaAnt = objFila;
-            backgroundColorFilaAnt = objFila.style.backgroundColor;
-            objFila.style.backgroundColor = "#c4e4ff";
-        }
-        catch (e) {
-            error = e.message;
-        }
-    }
-
-</script>
 </asp:Content>

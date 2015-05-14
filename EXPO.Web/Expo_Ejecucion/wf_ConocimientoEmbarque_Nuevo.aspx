@@ -108,8 +108,7 @@
                     <asp:Button ID="btn_Limpiar" runat="server" Text="Limpiar" OnClick="btn_Limpiar_Click" />
                     &nbsp;<asp:Button ID="btn_Grabar" runat="server" Text="Grabar" 
                         onclick="btn_Grabar_Click" />
-                    &nbsp;<asp:Button ID="btn_Salir" runat="server" Text="Salir" Width="59px" />
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td  align="center" colspan="4">

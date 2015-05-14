@@ -27,9 +27,16 @@
                 </asp:LoginView>
             </div>
             <div class="clear hideSkiplink" style="background:#808080">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" OnMenuItemClick="NavigationMenu_MenuItemClick">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/" Text="Exportaciones"/>
+                        <asp:MenuItem NavigateUrl="~/" Text="Logística" Value="logistica"/>
+                        <asp:MenuItem NavigateUrl="~/" Text="Ventas" Value="ventas"/>
+                        <asp:MenuItem NavigateUrl="~/" Text="Exportaciones">
+                            <asp:MenuItem NavigateUrl="~/Expo_Ejecucion/wf_ConocimientoEmbarque_Listado.aspx" Text="Conocimiento de Embarque" Value="conoemba"/>
+                            <asp:MenuItem NavigateUrl="~/Expo_Ejecucion/wf_SolicitudAtencion_Listado.aspx" Text="Solicitud de Atención" Value="soliaten"/>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/" Text="Comercial" Value="comercial"/>
+                        <asp:MenuItem NavigateUrl="~/" Text="Facturación" Value="facturacion"/>
                     </Items>
                 </asp:Menu>
             </div>

@@ -5,17 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class SiteMaster : System.Web.UI.MasterPage
+public partial class Expo_Ejecucion_wf_SolicitudAtencion_Nuevo : System.Web.UI.Page
 {
-
-    public event MenuEventHandler MenuItemClick;
-
     protected void Page_Load(object sender, EventArgs e)
-    {
-
-    }
-
-    protected void NavigationMenu_MenuItemClick(object sender, MenuEventArgs e)
     {
 
     }
