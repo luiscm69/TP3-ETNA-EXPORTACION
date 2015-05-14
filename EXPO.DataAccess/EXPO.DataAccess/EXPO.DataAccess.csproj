@@ -45,6 +45,7 @@
     <Compile Include="BaseDatos\DA_DataBaseConfiguracion.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DA_ConocimientoEmbarque.cs" />
+    <Compile Include="DA_SolicitudAtencion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

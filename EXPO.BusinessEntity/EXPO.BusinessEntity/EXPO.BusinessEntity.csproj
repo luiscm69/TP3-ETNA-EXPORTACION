@@ -43,6 +43,7 @@
     <Compile Include="BE_ConocimientoEmbarque.cs" />
     <Compile Include="BE_LineaNaviera.cs" />
     <Compile Include="BE_Puerto.cs" />
+    <Compile Include="BE_SolicitudAtencion.cs" />
     <Compile Include="BE_TipoCarga.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
