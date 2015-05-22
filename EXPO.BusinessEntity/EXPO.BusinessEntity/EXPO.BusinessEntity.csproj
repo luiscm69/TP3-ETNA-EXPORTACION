@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BE_ConocimientoEmbarque.cs" />
+    <Compile Include="BE_FolioCabecera.cs" />
+    <Compile Include="BE_FolioDespachoDetalle.cs" />
     <Compile Include="BE_LineaNaviera.cs" />
     <Compile Include="BE_Puerto.cs" />
     <Compile Include="BE_SolicitudAtencion.cs" />

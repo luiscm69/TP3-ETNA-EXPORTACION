@@ -16,3 +16,12 @@ D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\
 D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.csprojResolveAssemblyReference.cache
 D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.dll
 D:\Proyectos\UPC\TP3\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessLogic.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessLogic.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessEntity.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.BusinessEntity.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\bin\Debug\EXPO.DataAccess.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessLogic\EXPO.BusinessLogic\obj\Debug\EXPO.BusinessLogic.pdb

@@ -40,5 +40,13 @@ namespace EXPO.BusinessEntity
             set { _sObservacion = value; }
         }
 
+        int _iIdRequerimiento;
+
+        public int IIdRequerimiento
+        {
+            get { return _iIdRequerimiento; }
+            set { _iIdRequerimiento = value; }
+        }
+
     }
 }

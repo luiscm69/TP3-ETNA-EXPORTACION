@@ -2,3 +2,8 @@ C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.Bus
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\bin\Debug\EXPO.BusinessEntity.pdb
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.dll
 C:\Users\flindrs\Documents\Visual Studio 2010\Projects\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\bin\Debug\EXPO.BusinessEntity.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\bin\Debug\EXPO.BusinessEntity.pdb
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.csprojResolveAssemblyReference.cache
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.dll
+D:\Gustavo Cuentas\AppPersonal\Etna.Exportacion\EXPO.BusinessEntity\EXPO.BusinessEntity\obj\Debug\EXPO.BusinessEntity.pdb

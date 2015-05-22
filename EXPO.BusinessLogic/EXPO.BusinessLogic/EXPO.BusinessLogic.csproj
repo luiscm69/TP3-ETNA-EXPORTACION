@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL_ConocimientoEmbarque.cs" />
-    <Compile Include="BL_SolicitudAtencion.cs" />
+    <Compile Include="BL_Folio.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

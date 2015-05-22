@@ -7,7 +7,7 @@
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">   
     <div>
     
-        <table style="width:100%;">
+        <table style="width:100%;"> 
             <tr>
                 <td>
                     Estado</td>
